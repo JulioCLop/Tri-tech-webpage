@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="logo-gradient" x1="40" y1="20" x2="180" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f26a6a" />
+      <stop offset="1" stop-color="#b81f1f" />
+    </linearGradient>
+    <filter id="logo-shadow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#d64a4a" flood-opacity="0.45" />
+    </filter>
+  </defs>
+  <rect x="20" y="20" width="160" height="160" rx="44" fill="url(#logo-gradient)" filter="url(#logo-shadow)" />
+  <rect x="70" y="70" width="60" height="60" rx="16" fill="#ffffff" />
+</svg>
